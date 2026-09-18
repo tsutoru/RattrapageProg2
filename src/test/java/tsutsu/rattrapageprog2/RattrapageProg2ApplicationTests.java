@@ -13,9 +13,9 @@ class RattrapageProg2ApplicationTests {
         TopClothes topClothes = new TopClothes(Sleeves.Long);
         BottomClothes bottomClothes = new BottomClothes(15);
         Order order = new Order();
-        Client client = new Client("0332067898", "Rakoto@gmail.com", "125Lotanihoany",1999-10-22 );
+        Client client = new Client(1,"RAKOTO");
 
-        double amount = 0.0;
+        double Total = 10000.00;
 
     }
 

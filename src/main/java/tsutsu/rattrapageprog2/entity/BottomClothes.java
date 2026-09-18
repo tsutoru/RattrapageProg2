@@ -1,6 +1,7 @@
 package tsutsu.rattrapageprog2.entity;
 
 public class BottomClothes extends Clothes {
+    private int id;
     private int taille;
 
     public BottomClothes(String name, Size size, Material material, Double price, int taille) {

@@ -11,14 +11,20 @@ public class Client {
     private String email;
     private String phone;
 
-    public Client(String phone, String email, String address, Date dateOfBirth, String lastname, String firstname, int id) {
-        this.phone = phone;
-        this.email = email;
-        this.address = address;
+    public Client(int id, String firstname, String lastname, Date dateOfBirth, String address, String email, String phone) {
+        this.id =id;
+        this.firstname =firstname;
+        this.lastname =lastname;
         this.dateOfBirth = dateOfBirth;
-        this.lastname = lastname;
-        this.firstname = firstname;
+        this.address = address;
+        this.email = email;
+        this.phone = phone;
+    }
+
+    public Client(int id,String firstname){
         this.id = id;
+        this.firstname =firstname;
+
     }
 
     public Client(){

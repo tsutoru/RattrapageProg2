@@ -1,14 +1,12 @@
 package tsutsu.rattrapageprog2.entity;
 
 public class Clothes {
-    private int id;
     protected String name;
     protected Double price;
     protected Size size;
     protected Material material;
 
-    public Clothes(int id, String name, Size size, Material material, Double price) {
-        this.id = id;
+    public Clothes(, String name, Size size, Material material, Double price) {
         this.name = name;
         this.price = price;
         this.size = size;
