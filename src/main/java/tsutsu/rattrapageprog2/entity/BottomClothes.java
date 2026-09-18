@@ -3,8 +3,8 @@ package tsutsu.rattrapageprog2.entity;
 public class BottomClothes extends Clothes {
     private int taille;
 
-    public BottomClothes(String name, Type type, Material material, int taille) {
-        super(name, type, material);
+    public BottomClothes(String name, Type type, Material material,Double price, int taille) {
+        super(name, type, material, price);
         this.taille = taille;
     }
 
