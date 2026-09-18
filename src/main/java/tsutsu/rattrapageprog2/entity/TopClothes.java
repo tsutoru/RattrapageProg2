@@ -3,9 +3,13 @@ package tsutsu.rattrapageprog2.entity;
 public class TopClothes extends  Clothes {
     private Sleeves sleeves;
 
-    public TopClothes(String name, Type type, Material material,Double price, Sleeves sleeves) {
-        super(name, type, material, price);
+    public TopClothes(String name, Size size, Material material, Double price, Sleeves sleeves) {
+        super(name, size, material, price);
         this.sleeves = sleeves;
+    }
+
+    public TopClothes(){
+
     }
 
     public TopClothes(Sleeves sleeves) {

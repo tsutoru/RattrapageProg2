@@ -1,6 +1,6 @@
 package tsutsu.rattrapageprog2.entity;
 
-public enum Type {
+public enum Size {
     XS,
     S,
     M,

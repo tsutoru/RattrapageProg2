@@ -4,18 +4,27 @@ public class Clothes {
     private int id;
     protected String name;
     protected Double price;
-    protected Type type;
+    protected Size size;
     protected Material material;
 
-    public Clothes(String name, Type type, Material material, Double price) {
+    public Clothes(int id, String name, Size size, Material material, Double price) {
+        this.id = id;
         this.name = name;
         this.price = price;
-        this.type = type;
+        this.size = size;
         this.material = material;
     }
 
     public Clothes(){
 
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getName() {
@@ -34,12 +43,12 @@ public class Clothes {
         this.price = price;
     }
 
-    public Type getType() {
-        return type;
+    public Size getSize() {
+        return size;
     }
 
-    public void setType(Type type) {
-        this.type = type;
+    public void setSize(Size size) {
+        this.size = size;
     }
 
     public Material getMaterial() {

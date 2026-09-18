@@ -19,6 +19,10 @@ public class Order {
         this.date = date;
     }
 
+    public Order(){
+
+    }
+
     public int getId() {
         return id;
     }
@@ -49,5 +53,14 @@ public class Order {
 
     public void setDate(Timestamp date) {
         this.date = date;
+    }
+
+
+    public double getTotalAmount(){
+        double total = 0;
+        for (Clothes clothe : clothes){
+            total += clothe.getPrice();
+        }
+        return total;
     }
 }
